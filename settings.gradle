@@ -1,0 +1,2 @@
+include ':app', ':encore-sdk-support'
+rootProject.name='encore_sdk_support'
