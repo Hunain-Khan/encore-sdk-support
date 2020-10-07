@@ -35,7 +35,7 @@ public class NextActivity extends AppCompatActivity {
         outsdkBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText(Commons.toastMessage(getApplicationContext(),"Outer Sdk message 1","outer sdk"));
+           textView.setText(OuterToastMessage.giveMessage(getApplicationContext(),"Outer Sdk message 1"));
             }
         });
     }
