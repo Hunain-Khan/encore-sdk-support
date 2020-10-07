@@ -1,2 +1,2 @@
-include ':app', ':encore-sdk-support', ':card-reader'
+include ':app', ':encore-sdk-support', ':cardreader-0.0.0.0.9'
 rootProject.name='encore_sdk_support'
