@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.encorepay.card_scanner.CardScannerActivity;
 
@@ -24,5 +25,10 @@ public class NextActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+
+    public void toastMessage(){
+        Toast.makeText(this,"this message is from dependent sdk",Toast.LENGTH_SHORT).show();
     }
 }
