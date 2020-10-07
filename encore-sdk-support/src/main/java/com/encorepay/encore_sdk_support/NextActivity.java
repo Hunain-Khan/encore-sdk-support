@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.encorepay.card_scanner.CardScannerActivity;
-import com.encorepay.card_scanner.Commons;
+import io.card.payment.CardScannerActivity;
+
 
 public class NextActivity extends AppCompatActivity {
 
