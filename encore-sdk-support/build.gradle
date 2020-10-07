@@ -3,6 +3,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'maven-publish'
 group = 'com.github.Hunain-Khan'
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -34,8 +40,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.github.Hunain-Khan:encore-sdk:2.3.8'
-    implementation project(path: ':cardreader-0.0.0.0.9')
-//    implementation 'com.unikrew.faceoff:cardreader:0.0.0.0.9'
+    implementation (name:'cardreader-0.0.0.0.9', ext:'aar')
+
 
 }
