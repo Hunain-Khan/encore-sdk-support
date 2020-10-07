@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.encorepay.card_scanner.CardScannerActivity;
+import com.encorepay.card_scanner.Commons;
 
 public class NextActivity extends AppCompatActivity {
 
@@ -31,7 +32,7 @@ public class NextActivity extends AppCompatActivity {
         outsdkBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Commons.toastMessage(getApplicationContext(),"Outer Sdk message 1");
             }
         });
     }

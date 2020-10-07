@@ -35,7 +35,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.github.Hunain-Khan:encore-sdk:2.3.4'
-   // implementation 'com.unikrew.faceoff:cardreader:0.0.0.0.9'
+    implementation 'com.github.Hunain-Khan:encore-sdk:2.3.6'
+
+    // implementation 'com.unikrew.faceoff:cardreader:0.0.0.0.9'
 
 }
