@@ -6,6 +6,6 @@ import com.encorepay.card_scanner.Commons;
 
 public class OuterToastMessage {
     public static String giveMessage(Context context, String text){
-       return Commons.toastMessage(context,text,"calling outer sdk from apk");
+       return Commons.toastMessage(context,text,text);
     }
 }
