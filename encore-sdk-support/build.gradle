@@ -45,7 +45,8 @@ dependencies {
     //}
     //implementation files('libs\\cardreader-0.0.0.0.9.aar')
     implementation 'com.github.Hunain-Khan:encore-sdk:2.3.8'
-    implementation project(path: ':cardreader')
+    implementation project(path: ':encore-libs')
+    // implementation project(path: ':cardreader')
     // implementation (name:'cardreader-0.0.0.0.9', ext:'aar')
 
 
