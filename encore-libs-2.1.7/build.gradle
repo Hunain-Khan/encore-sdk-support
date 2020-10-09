@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('encore-libs-2.1.7.aar'))

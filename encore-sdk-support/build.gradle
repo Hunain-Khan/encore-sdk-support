@@ -40,12 +40,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.unikrew.faceoff:cardreader:0.0.0.0.9'
+   // implementation 'com.unikrew.faceoff:cardreader:0.0.0.0.9'
      //   transitive = true
     //}
     //implementation files('libs\\cardreader-0.0.0.0.9.aar')
     implementation 'com.github.Hunain-Khan:encore-sdk:2.3.8'
-   // implementation project(path: ':encore-libs')
+    implementation project(path: ':encore-libs-2.1.7')
+    // implementation project(path: ':encore-libs')
     // implementation project(path: ':cardreader')
     // implementation (name:'cardreader-0.0.0.0.9', ext:'aar')
 
