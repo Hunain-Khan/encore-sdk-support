@@ -1,5 +1,6 @@
 package com.encorepay.encore_sdk_support;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -21,12 +22,20 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CardScanProvider s = new CardScanProvider();
-                s.setCardScanSide(Side.FRONT);
-                s.startScanDocument(MainActivity.this,100);
+               Intent intent = new MRZScan.Builder()
+                       .enableVibration(true)
+                       .enableIDScan(true)
+                       .enablePassportScan(true)
+                       .build(MainActivity.this);
+              startActivityForResult(intent,100);
 
             }
         });
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }
