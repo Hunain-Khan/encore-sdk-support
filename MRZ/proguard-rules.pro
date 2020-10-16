@@ -20,5 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 -keep public class com.encorepay.MRZ.MRZScan {*;}
--keepclasseswithmembernames public class com.encorepay.MRZ.MRZScan$** { *; }
+-keep public class com.encorepay.MRZ.MRZScan$** { *; }
+-keep public class com.encorepay.MRZ.MRZScan$Builder { *; }
 -keep public class com.encorepay.MRZ.models.KycFields {*;}
