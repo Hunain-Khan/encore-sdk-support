@@ -21,3 +21,4 @@
 #-renamesourcefileattribute SourceFile
 
 -keep class com.encorepay.cardscan.CardScanProvider {*;}
+-keep enum com.encorepay.cardscan.Side {*;}
