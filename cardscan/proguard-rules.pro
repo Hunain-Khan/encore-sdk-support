@@ -19,6 +19,5 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep public enum com.encorepay.cardscan.ScanSide {*;}
 
--keep class com.encorepay.cardscan.ScanDocumentProvider {*;}
+-keep class com.encorepay.cardscan.CardScanProvider {*;}
