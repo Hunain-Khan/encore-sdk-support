@@ -13,12 +13,12 @@ public class CardScanProvider {
         scanDocument = new ScanDocument();
     }
 
-    public void setCardScanSide(String Side){
-        if(ScanSide.FRONT.equals(Side)) {
+    public void setCardScanSide(Side scanSide){
+        if(Side.FRONT.equals(scanSide)) {
             scanDocument.setCardScanSide(ScanSide.FRONT);
-        }else if(ScanSide.BACK.equals(Side)) {
+        }else if(Side.BACK.equals(scanSide)) {
             scanDocument.setCardScanSide(ScanSide.BACK);
-        }else if(ScanSide.BOTH.equals(Side)) {
+        }else if(Side.BOTH.equals(scanSide)) {
             scanDocument.setCardScanSide(ScanSide.BOTH);
         }
     }

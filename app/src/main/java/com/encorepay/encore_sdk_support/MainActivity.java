@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.encorepay.cardscan.CardScanProvider;
+import com.encorepay.cardscan.Side;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                CardScanProvider s = new CardScanProvider();
+                s.setCardScanSide(Side.FRONT);
+                s.startScanDocument(MainActivity.this,100);
 
             }
         });
