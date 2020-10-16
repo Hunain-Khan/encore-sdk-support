@@ -13,8 +13,14 @@ public class CardScanProvider {
         scanDocument = new ScanDocument();
     }
 
-    public void setCardScanSide(ScanSide scanSide){
-        scanDocument.setCardScanSide(scanSide);
+    public void setCardScanSide(String Side){
+        if(ScanSide.FRONT.equals(Side)) {
+            scanDocument.setCardScanSide(ScanSide.FRONT);
+        }else if(ScanSide.BACK.equals(Side)) {
+            scanDocument.setCardScanSide(ScanSide.BACK);
+        }else if(ScanSide.BOTH.equals(Side)) {
+            scanDocument.setCardScanSide(ScanSide.BOTH);
+        }
     }
 
     public void startScanDocument(Activity activity, int REQ_CODE){
