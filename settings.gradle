@@ -1,2 +1,2 @@
-include ':app', ':encore-sdk-support', ':encore-libs-2.1.7'
+include ':app', ':cardscan'
 rootProject.name='encore_sdk_support'
