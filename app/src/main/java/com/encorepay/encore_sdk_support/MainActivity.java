@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.encorepay.MRZ.MRZScan;
-import com.encorepay.commons.models.KycFields;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 100){
             if(resultCode == RESULT_OK){
-               KycFields kyc = (KycFields) data.getExtras().getParcelable(MRZScan.KYC_DATA);
-                Toast.makeText(this,kyc.getName(),Toast.LENGTH_SHORT).show();
+//               KycFields kyc = (KycFields) data.getExtras().getParcelable(MRZScan.KYC_DATA);
+//                Toast.makeText(this,kyc.getName(),Toast.LENGTH_SHORT).show();
             }
         }
     }
