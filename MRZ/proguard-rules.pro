@@ -21,5 +21,4 @@
 #-renamesourcefileattribute SourceFile
 -keep public class com.encorepay.MRZ.MRZScan {*;}
 -keep public class com.encorepay.MRZ.MRZScan$** { *; }
--keep public class com.encorepay.MRZ.MRZScan$Builder { *; }
--keep public class com.encorepay.MRZ.models.KycFields {*;}
+-keep public class com.encorepay.MRZ.models.KYC {*;}
