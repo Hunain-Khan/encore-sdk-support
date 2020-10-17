@@ -2,7 +2,8 @@ package com.encorepay.cardscan;
 import android.app.Activity;
 
 import com.encorepay.card_scanner.ScanDocument;
-import com.encorepay.card_scanner.ScanSide;
+import com.encorepay.commons.models.ScanSide;
+
 
 public class CardScanProvider {
    private ScanDocument scanDocument;
