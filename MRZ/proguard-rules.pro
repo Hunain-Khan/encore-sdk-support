@@ -22,3 +22,4 @@
 -keep public class com.encorepay.MRZ.MRZScan {*;}
 -keep public class com.encorepay.MRZ.MRZScan$** { *; }
 -keep public class com.encorepay.MRZ.models.KYC {*;}
+-keep public class com.encorepay.encore_libs_mrz_scanner.models.KycFields {*;}
