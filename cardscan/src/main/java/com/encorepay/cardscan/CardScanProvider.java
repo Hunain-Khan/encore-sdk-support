@@ -4,7 +4,6 @@ import android.app.Activity;
 import com.encorepay.card_scanner.ScanDocument;
 import com.encorepay.commons.models.ScanSide;
 
-
 public class CardScanProvider {
    private ScanDocument scanDocument;
    public static final String CARD_FRONT_IMAGE = "cardFrontSideImage";
