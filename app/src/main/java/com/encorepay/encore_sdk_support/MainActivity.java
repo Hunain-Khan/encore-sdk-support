@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.encorepay.MRZ.MRZScan;
+import com.encorepay.commons.models.ScanSide;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
 //               Intent intent = new MRZScan.Builder()
 //                      .setRequestInfoParams(R)
 //                       .build(this);
