@@ -22,10 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//               Intent intent = new MRZScan.Builder()
-//                      .setRequestInfoParams(R)
-//                       .build(this);
-//              startActivityForResult(intent,100);
+
 
             }
         });
