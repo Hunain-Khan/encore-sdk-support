@@ -15,5 +15,9 @@
 
 
 
-
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/liveness_btn"
+        android:text="Liveness Btn" />
 </LinearLayout>
