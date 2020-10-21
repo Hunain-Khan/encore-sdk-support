@@ -28,6 +28,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation project(path: ':cardscan')
     implementation project(path: ':MRZ')
-    implementation 'com.github.Hunain-Khan.encore-sdk:commons:2.7.2'
+    implementation 'com.github.Hunain-Khan.encore-sdk:commons:2.7.3'
     //implementation project(path: ':encore-sdk-support')
 }

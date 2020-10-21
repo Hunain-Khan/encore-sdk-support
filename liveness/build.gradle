@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
+group = 'com.github.Hunain-Khan'
 
 android {
     compileSdkVersion 29
@@ -31,5 +34,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.github.Hunain-Khan.encore-sdk:encore-libs-liveness:2.7.2'
+    implementation 'com.github.Hunain-Khan.encore-sdk:encore-libs-liveness:2.7.3'
 }
