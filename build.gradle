@@ -20,7 +20,7 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven { url "http://99fd6ff32a20.ngrok.io" }
+        maven { url "http://2024bd0c56e2.ngrok.io" }
        // maven { url "http://unikrewmavenrepository-development.azurewebsites.net" }
     }
 }
