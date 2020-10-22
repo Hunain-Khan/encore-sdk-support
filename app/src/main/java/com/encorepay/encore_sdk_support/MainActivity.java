@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.encorepay.MRZ.MRZScan;
 import com.encorepay.cardscan.CardScanProvider;
-import com.encorepay.commons.models.ScanSide;
 
 import org.json.JSONObject;
 
@@ -29,10 +28,6 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                CardScanProvider s = new CardScanProvider();
-                s.setCardScanSide(ScanSide.FRONT);
-                s.startScanDocument(MainActivity.this,200);
             }
         });
 
@@ -61,8 +56,6 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 200){
             if(resultCode == RESULT_OK) {
-                byte[] image = (byte[]) data.getExtras().getSerializable(CardScanProvider.CARD_FRONT_IMAGE);
-                cardImage = Base64.encodeToString(image, Base64.DEFAULT);
 
             }
         }

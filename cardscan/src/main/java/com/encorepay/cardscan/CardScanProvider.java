@@ -1,27 +1,25 @@
 package com.encorepay.cardscan;
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import com.encorepay.card_scanner.ScanDocumentActivity;
 
-import com.encorepay.card_scanner.ScanDocument;
-import com.encorepay.commons.models.ScanSide;
+
+import org.json.JSONObject;
 
 public class CardScanProvider {
-   private ScanDocument scanDocument;
+  private
    public static final String CARD_FRONT_IMAGE = "cardFrontSideImage";
    public static final String CARD_BACK_IMAGE = "cardBackSideImage";
 
-    public CardScanProvider(){
-        scanDocument = new ScanDocument();
+
+
+    public void setRequestInfoParam(JSONObject requestInfoParam){
+        ScanDocumentActivity.setRequestInfoParam(requestInfoParam);
     }
 
-    public void setCardScanSide(ScanSide scanSide){
-        scanDocument.setCardScanSide(scanSide);
-    }
-
-    public void startScanDocument(Activity activity, int REQ_CODE){
-        scanDocument.startScanActivity(activity,REQ_CODE);
-    }
-
-    public void flashLightEnabled(boolean enable){
-        scanDocument.flashLightEnabled(enable);
+    public Intent startScanActivity(Context context){
+      Intent intent = ScanDocumentActivity.startScanDocument(context);
+      return intent;
     }
 }
