@@ -11,11 +11,11 @@ public class RealnessTest {
 
     public static final String LIVENESS_DATA = "liveness_data";
 
-    public void setRequestInfoParam(JSONObject requestInfoParam){
+    public static void setRequestInfoParam(JSONObject requestInfoParam){
         RealnessTestActivity.setRequestInfoParams(requestInfoParam);
     }
 
-    public Intent startRealnessTest(Context context){
+    public static Intent startRealnessTest(Context context){
         Intent intent = RealnessTestActivity.startRealnessActivity(context);
         return intent;
     }

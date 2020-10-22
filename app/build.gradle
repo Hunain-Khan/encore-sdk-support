@@ -30,6 +30,5 @@ dependencies {
     implementation project(path: ':MRZ')
     implementation 'com.github.Hunain-Khan.encore-sdk:commons:2.7.7'
     implementation project(path: ':liveness')
-    compile project(path: ':liveness')
     //implementation project(path: ':encore-sdk-support')
 }
