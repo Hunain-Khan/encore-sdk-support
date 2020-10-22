@@ -8,11 +8,7 @@ import com.encorepay.card_scanner.ScanDocumentActivity;
 import org.json.JSONObject;
 
 public class CardScanProvider {
-  private
-   public static final String CARD_FRONT_IMAGE = "cardFrontSideImage";
-   public static final String CARD_BACK_IMAGE = "cardBackSideImage";
-
-
+    public static String CARD_SCAN_DATA = "cardScanningData";
 
     public void setRequestInfoParam(JSONObject requestInfoParam){
         ScanDocumentActivity.setRequestInfoParam(requestInfoParam);
