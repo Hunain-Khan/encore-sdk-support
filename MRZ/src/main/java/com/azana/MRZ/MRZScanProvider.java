@@ -1,4 +1,4 @@
-package com.encorepay.MRZ;
+package com.azana.MRZ;
 import android.content.Context;
 import android.content.Intent;
 

@@ -1,4 +1,4 @@
-package com.encorepay.realness;
+package com.azana.realness;
 
 import android.content.Context;
 import android.content.Intent;

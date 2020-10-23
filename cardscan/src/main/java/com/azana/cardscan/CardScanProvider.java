@@ -1,5 +1,5 @@
-package com.encorepay.cardscan;
-import android.app.Activity;
+package com.azana.cardscan;
+
 import android.content.Context;
 import android.content.Intent;
 import com.encorepay.card_scanner.ScanDocumentActivity;
