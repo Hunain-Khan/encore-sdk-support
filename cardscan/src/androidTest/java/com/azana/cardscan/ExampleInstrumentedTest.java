@@ -1,4 +1,4 @@
-package com.encorepay.encore_sdk_support;
+package com.azana.cardscan;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.encorepay.encore_sdk_support", appContext.getPackageName());
+        assertEquals("com.azana.cardscan.test", appContext.getPackageName());
     }
 }

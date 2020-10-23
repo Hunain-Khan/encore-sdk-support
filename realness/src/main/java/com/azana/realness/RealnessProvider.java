@@ -1,10 +1,6 @@
 package com.azana.realness;
-
 import android.content.Context;
 import android.content.Intent;
-
-import com.encorepay.encore_libs_liveness.RealnessTestActivity;
-
 import org.json.JSONObject;
 
 public class RealnessProvider {

@@ -1,4 +1,4 @@
-package com.encorepay.MRZ;
+package com.azana.realness;
 
 import org.junit.Test;
 

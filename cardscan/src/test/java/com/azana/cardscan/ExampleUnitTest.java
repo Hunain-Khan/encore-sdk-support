@@ -1,4 +1,4 @@
-package com.encorepay.encore_sdk_support;
+package com.azana.cardscan;
 
 import org.junit.Test;
 

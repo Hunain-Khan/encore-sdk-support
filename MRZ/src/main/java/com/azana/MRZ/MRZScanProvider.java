@@ -2,7 +2,7 @@ package com.azana.MRZ;
 import android.content.Context;
 import android.content.Intent;
 
-import com.encorepay.encore_libs_mrz_scanner.Scanner.MRZ;
+import com.azana.MRZ.Scan.ScanActivity;
 
 import org.json.JSONObject;
 
@@ -12,10 +12,10 @@ public class MRZScanProvider {
 
     public static class Builder {
 
-        private MRZ.Builder mrz;
+        private ScanActivity.Builder mrz;
 
         public Builder() {
-            mrz = new MRZ.Builder();
+            mrz = new ScanActivity.Builder();
         }
 
         public MRZScanProvider.Builder setRequestInfoParams(JSONObject requestInfoParams){

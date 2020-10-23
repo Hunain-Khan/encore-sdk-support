@@ -20,4 +20,4 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.encorepay.cardscan.CardScanProvider {*;}
+-keep class azana.cardscan.CardScanProvider {*;}

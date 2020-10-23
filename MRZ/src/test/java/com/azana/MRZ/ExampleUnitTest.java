@@ -1,4 +1,4 @@
-package com.encorepay.cardscan;
+package com.azana.MRZ;
 
 import org.junit.Test;
 

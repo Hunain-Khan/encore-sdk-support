@@ -1,4 +1,4 @@
-package com.encorepay.realness;
+package com.azana.encore_sdk_support;
 
 import org.junit.Test;
 

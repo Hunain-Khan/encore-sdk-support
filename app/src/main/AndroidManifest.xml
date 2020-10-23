@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.encorepay.encore_sdk_support">
+    package="com.azana.sdk_test">
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,7 @@
         tools:replace="android:icon,android:appComponentFactory"
 
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.azana.sdk_test.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

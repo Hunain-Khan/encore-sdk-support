@@ -1,4 +1,4 @@
-package com.encorepay.MRZ;
+package com.azana.MRZ;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.encorepay.mrz.test", appContext.getPackageName());
+        assertEquals("com.azana.mrz.test", appContext.getPackageName());
     }
 }

@@ -1,10 +1,7 @@
 package com.azana.cardscan;
-
 import android.content.Context;
 import android.content.Intent;
-import com.encorepay.card_scanner.ScanDocumentActivity;
-
-
+import com.azana.card_scanner.ScanDocumentActivity;
 import org.json.JSONObject;
 
 public class CardScanProvider {

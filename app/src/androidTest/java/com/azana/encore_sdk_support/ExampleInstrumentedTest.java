@@ -1,4 +1,4 @@
-package com.encorepay.realness;
+package com.azana.encore_sdk_support;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.encorepay.realness.test", appContext.getPackageName());
+        assertEquals("com.azana.encore_sdk_support", appContext.getPackageName());
     }
 }
