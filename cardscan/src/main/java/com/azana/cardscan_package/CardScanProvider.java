@@ -1,4 +1,4 @@
-package com.azana.cardscan;
+package com.azana.cardscan_package;
 import android.content.Context;
 import android.content.Intent;
 import com.azana.card_scanner.ScanDocumentActivity;

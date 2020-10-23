@@ -1,4 +1,4 @@
-package com.azana.realness;
+package com.azana.cardscan_package;
 
 import org.junit.Test;
 

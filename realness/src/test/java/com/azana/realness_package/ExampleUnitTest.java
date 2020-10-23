@@ -1,4 +1,4 @@
-package com.azana.MRZ;
+package com.azana.realness_package;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.azana.MRZ;
+package com.azana.realness_package;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.azana.mrz.test", appContext.getPackageName());
+        assertEquals("com.azana.realness_package.test", appContext.getPackageName());
     }
 }

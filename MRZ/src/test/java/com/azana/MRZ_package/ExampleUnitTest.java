@@ -1,4 +1,4 @@
-package com.azana.cardscan;
+package com.azana.MRZ_package;
 
 import org.junit.Test;
 

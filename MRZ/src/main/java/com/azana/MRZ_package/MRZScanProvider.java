@@ -1,4 +1,4 @@
-package com.azana.MRZ;
+package com.azana.MRZ_package;
 import android.content.Context;
 import android.content.Intent;
 

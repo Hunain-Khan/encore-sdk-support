@@ -1,6 +1,9 @@
-package com.azana.realness;
+package com.azana.realness_package;
 import android.content.Context;
 import android.content.Intent;
+
+import com.azana.realness.RealnessTestActivity;
+
 import org.json.JSONObject;
 
 public class RealnessProvider {

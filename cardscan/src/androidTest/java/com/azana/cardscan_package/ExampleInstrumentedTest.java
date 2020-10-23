@@ -1,4 +1,4 @@
-package com.azana.cardscan;
+package com.azana.cardscan_package;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.azana.cardscan.test", appContext.getPackageName());
+        assertEquals("com.azana.cardscan_package.test", appContext.getPackageName());
     }
 }
