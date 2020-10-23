@@ -1,2 +1,2 @@
-include ':app', ':cardscan', ':MRZ', ':liveness'
+include ':app', ':cardscan', ':MRZ', ':realness'
 rootProject.name='encore_sdk_support'

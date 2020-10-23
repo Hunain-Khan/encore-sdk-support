@@ -1,4 +1,4 @@
-package com.encorepay.liveness;
+package com.encorepay.realness;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import com.encorepay.encore_libs_liveness.RealnessTestActivity;
 
 import org.json.JSONObject;
 
-public class RealnessTest {
+public class RealnessProvider {
 
     public static final String LIVENESS_DATA = "liveness_data";
 

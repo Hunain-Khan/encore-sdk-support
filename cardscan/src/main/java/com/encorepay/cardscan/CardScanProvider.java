@@ -10,11 +10,11 @@ import org.json.JSONObject;
 public class CardScanProvider {
     public static String CARD_SCAN_DATA = "cardScanningData";
 
-    public void setRequestInfoParam(JSONObject requestInfoParam){
+    public static void setRequestInfoParam(JSONObject requestInfoParam){
         ScanDocumentActivity.setRequestInfoParam(requestInfoParam);
     }
 
-    public Intent startScanActivity(Context context){
+    public static Intent startScanActivity(Context context){
       Intent intent = ScanDocumentActivity.startScanDocument(context);
       return intent;
     }

@@ -19,7 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep public class com.encorepay.MRZ.MRZScan {*;}
--keep public class com.encorepay.MRZ.MRZScan$** { *; }
+-keep public class com.encorepay.MRZ.MRZScanProvider {*;}
+-keep public class com.encorepay.MRZ.MRZScanProvider$** { *; }
 -keep public class com.encorepay.MRZ.models.KYC {*;}
 -keep public class com.encorepay.encore_libs_mrz_scanner.models.KycFields {*;}

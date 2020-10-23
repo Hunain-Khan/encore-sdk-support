@@ -1,4 +1,4 @@
-package com.encorepay.liveness;
+package com.encorepay.realness;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.encorepay.liveness.test", appContext.getPackageName());
+        assertEquals("com.encorepay.realness.test", appContext.getPackageName());
     }
 }

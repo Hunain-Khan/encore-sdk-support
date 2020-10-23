@@ -6,7 +6,7 @@ import com.encorepay.encore_libs_mrz_scanner.Scanner.MRZ;
 
 import org.json.JSONObject;
 
-public class MRZScan {
+public class MRZScanProvider {
 
     public static final String KYC_DATA  = "KycData";
 
@@ -18,7 +18,7 @@ public class MRZScan {
             mrz = new MRZ.Builder();
         }
 
-        public MRZScan.Builder setRequestInfoParams(JSONObject requestInfoParams){
+        public MRZScanProvider.Builder setRequestInfoParams(JSONObject requestInfoParams){
             mrz.setRequestInfoParams(requestInfoParams);
             return this;
         }

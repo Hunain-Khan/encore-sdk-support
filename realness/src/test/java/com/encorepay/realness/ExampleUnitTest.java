@@ -1,4 +1,4 @@
-package com.encorepay.liveness;
+package com.encorepay.realness;
 
 import org.junit.Test;
 

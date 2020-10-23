@@ -5,13 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
-
-import com.encorepay.MRZ.MRZScan;
-import com.encorepay.cardscan.CardScanProvider;
 
 import org.json.JSONObject;
 

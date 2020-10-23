@@ -28,6 +28,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation project(path: ':cardscan')
     implementation project(path: ':MRZ')
-    implementation project(path: ':liveness')
+    implementation project(path: ':realness')
     //implementation project(path: ':encore-sdk-support')
 }
